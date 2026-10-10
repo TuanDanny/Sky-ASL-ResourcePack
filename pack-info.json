@@ -1,23 +1,22 @@
 {
-  "release": "packreload1-20261008",
-  "date": "2026-10-08 Asia/Saigon",
+  "release": "staff-ranks-20261010",
+  "date": "2026-10-10 Asia/Saigon",
   "file": "general.zip",
-  "bytes": 14972385,
-  "sha1": "a2b25655b79368082b409e32ba999c59c94ed007",
-  "sha256": "0d5d030656e4de87140e2622066798a25edb4b13081f84d0a87181ec7443d3d5",
+  "bytes": 14991879,
+  "sha1": "a767baf64838f9ff26ef0824ec53f47431cb5819",
+  "sha256": "4937a461ceeae731ae431ed64bf2a1558885ce3a1cad346300750c1a1f2e8c6b",
   "download_latest": "https://raw.githubusercontent.com/TuanDanny/Sky-ASL-ResourcePack/main/general.zip",
-  "download_pinned": "https://raw.githubusercontent.com/TuanDanny/Sky-ASL-ResourcePack/packreload1-20261008/general.zip",
+  "download_pinned": "https://raw.githubusercontent.com/TuanDanny/Sky-ASL-ResourcePack/staff-ranks-20261010/general.zip",
   "live_url": "https://skyasl.xyz/pack.zip",
-  "live_pinned_url": "https://skyasl.xyz/pack-a2b25655b79368082b409e32ba999c59c94ed007.zip",
-  "installer_url": "https://skyasl.xyz/SkyASL-TierVisuals-1.0.1-packreload1.zip",
-  "previous_commit": "0753c87d2a0876cb99453d630420bfeef6dbb5ba",
+  "live_pinned_url": "https://skyasl.xyz/pack-a767baf64838f9ff26ef0824ec53f47431cb5819.zip",
+  "previous_commit": "0bfe97b758e4cf2b416cc228316c3d44309eae3d",
   "server_source": "https://github.com/TuanDanny/Sky_ASL",
   "optimization": {
     "bitmap_providers_per_font": {
       "before": 800,
-      "after": 73
+      "after": 74
     },
-    "glyphs_per_font": 800,
+    "glyphs_per_font": 803,
     "format75_active_overlays": {
       "before": 8,
       "after": 1
@@ -26,8 +25,8 @@
   },
   "verification": {
     "client": "Minecraft 1.21.11",
-    "reload_seconds": 7.617,
-    "valid_samples": 1,
+    "reload_seconds": 7.703,
+    "valid_samples": 2,
     "user_visual_check": "PASS",
     "models": 4190,
     "texture_sprites": 898,
@@ -35,6 +34,19 @@
     "tier_definitions": 3090,
     "tier_frames": 8,
     "tooltip_styles": 8,
-    "notes": "Reload time after download, not an Internet download benchmark or guarantee for all computers."
-  }
+    "notes": "Same client 1.21.11, after-download reload; localhost network, not a VPS Internet benchmark or guarantee.",
+    "baseline_seconds": [
+      8.759,
+      7.852
+    ],
+    "candidate_seconds": [
+      8.024,
+      7.382
+    ]
+  },
+  "staff_badges": [
+    "helper",
+    "police",
+    "admin"
+  ]
 }
